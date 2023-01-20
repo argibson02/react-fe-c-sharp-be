@@ -1,0 +1,21 @@
+/* Buttons */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container > a {
+    text-decoration: none;
+}
+
+.project-link {
+    font-size: 18px;
+}
+
+.custom-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
